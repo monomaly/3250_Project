@@ -9,7 +9,6 @@ from sklearn.preprocessing import StandardScaler
 
 # ============ Data Loading & Exploration ============
 def load_and_explore_data(data_path):
-    """加载数据并探索性分析"""
     df = pd.read_csv(data_path)
 
     features = [
@@ -46,7 +45,6 @@ def load_and_explore_data(data_path):
 
 # ============ Model Training ============
 def train_stress_model(df_subset):
-    """训练随机森林模型并评估"""
     features = [
         "sleep_quality",
         "sleep_duration_hours",
