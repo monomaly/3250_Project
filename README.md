@@ -27,8 +27,11 @@ Mood Correlation: A Column Chart illustrating the "staircase" effect of improvin
 
 Tech Used
 Data Analysis: Python (Pandas, Seaborn, Matplotlib)
+
 Visualization: Microsoft Power BI
+
 Project Management: Hive
+
 Documentation: Microsoft Word/Powerpoint
 
 Group Members
